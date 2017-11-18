@@ -80,12 +80,12 @@ footer nav h2 span{
 @media screen and (max-width: 768px) {
     .penultima{
         flex-direction: column;
-        padding-left: 20px;
+        padding: 0 30px;
         margin-bottom: 30px;
     }
     
     .penultima .selects select{
-        width: 260px;
+        width: 100%;
     }
     .penultima ul{
         margin-bottom: 15px;
