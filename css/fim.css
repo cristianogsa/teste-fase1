@@ -1,0 +1,109 @@
+.penultima{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.penultima .selects{
+    display: flex;
+    flex-direction: column;
+}
+
+.penultima .selects select{
+    margin-bottom: 20px;
+    width: 340px;
+    padding: 20px;
+    color: #75808c;
+    opacity: .9;
+    border: 2px solid #dbdbdb;
+    border-radius: 2px;
+}
+
+.penultima ul{
+    margin: 0;
+    padding: 0;
+}
+
+.penultima h4{
+    margin: 0;padding: 0;
+    font-family: 'source_sans_probold';
+    color: #fb5c68;
+}
+.penultima ul li{
+    list-style: none;
+}
+.penultima ul li a{
+    text-decoration: none;
+    color: #88939e;
+    opacity: .9;
+}
+
+/**/
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #e8e8e8;
+    margin: 0 130px;
+    padding: 20px 0;
+    flex-wrap: wrap-reverse;
+}
+
+footer nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 90px;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #88939e;
+    opacity: .9;
+}
+footer nav h2{
+    padding: 0;margin: 0;
+    background: url(../img/airbnb-footer.png) no-repeat;
+    height: 36px;
+    width: 114px;
+}
+footer nav h2 span{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .penultima{
+        flex-direction: column;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .penultima .selects select{
+        width: 260px;
+    }
+    .penultima ul{
+        margin-bottom: 15px;
+    }
+    
+    footer{
+        margin: 0 20px;
+    }
+    footer nav{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    footer nav ul{
+        padding: 0;
+        flex-direction: column;
+    }
+    footer nav ul li{
+        margin-left: 0;
+        text-align: center;
+    }
+} 
